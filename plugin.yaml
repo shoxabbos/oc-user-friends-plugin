@@ -1,0 +1,6 @@
+plugin:
+    name: 'shohabbos.friends::lang.plugin.name'
+    description: 'shohabbos.friends::lang.plugin.description'
+    author: Shohabbos
+    icon: oc-icon-users
+    homepage: 'https://itmaker.uz'
