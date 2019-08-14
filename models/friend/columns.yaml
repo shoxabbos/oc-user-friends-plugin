@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    friend_id:
+        label: friend_id
+        type: number
+    status:
+        label: status
+        type: number
+    updated_at:
+        label: updated_at
+        type: datetime
+    user_id:
+        label: user_id
+        type: number

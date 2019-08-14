@@ -4,3 +4,12 @@ plugin:
     author: Shohabbos
     icon: oc-icon-users
     homepage: 'https://itmaker.uz'
+permissions:
+    manage_friends:
+        tab: 'shohabbos.friends::lang.plugin.name'
+        label: 'Manage friends'
+navigation:
+    friends:
+        label: Friends
+        url: shohabbos/friends/friends
+        icon: icon-users

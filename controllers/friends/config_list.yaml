@@ -1,0 +1,11 @@
+list: $/shohabbos/friends/models/friend/columns.yaml
+modelClass: Shohabbos\Friends\Models\Friend
+title: Friends
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
