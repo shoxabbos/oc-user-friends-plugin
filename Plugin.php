@@ -43,6 +43,10 @@ class Plugin extends PluginBase
 
     public function registerComponents()
     {
+        return [
+            'Shohabbos\Friends\Components\FriendsList' => 'FriendsList',
+            'Shohabbos\Friends\Components\FriendshipRequests' => 'FriendshipRequests'
+        ];
     }
 
     public function registerSettings()

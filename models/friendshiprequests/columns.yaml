@@ -1,0 +1,21 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    requester_id:
+        label: requester_id
+        type: number
+        searchable: true
+        sortable: true
+    accepter_id:
+        label: accepter_id
+        type: number
+        searchable: true
+        sortable: true
+    status:
+        label: sstatus
+        type: number
+        searchable: true
+        sortable: true

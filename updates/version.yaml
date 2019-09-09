@@ -3,3 +3,6 @@
 1.0.2:
     - 'Created table shohabbos_friends_friends'
     - builder_table_create_shohabbos_friends_friends.php
+1.0.3:
+    - 'Created table shohabbos_friends_requests'
+    - builder_table_create_shohabbos_friends_requests.php
