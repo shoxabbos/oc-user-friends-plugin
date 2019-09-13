@@ -26,4 +26,6 @@ class Friend extends Model
         'friend' => User::class,
     ];
 
+    public $guarded = ['id'];
+
 }

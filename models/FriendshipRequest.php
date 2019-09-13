@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class FriendshipRequests extends Model
+class FriendshipRequest extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     
@@ -19,5 +19,12 @@ class FriendshipRequests extends Model
      * @var array Validation rules
      */
     public $rules = [
+    ];
+
+    public $guarded = ['id'];
+
+    public $belongsTo = [
+        'requester' => \Rainlab\User\Models\User::class,
+        'accepter'  => \Rainlab\User\Models\User::class
     ];
 }
